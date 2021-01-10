@@ -1,0 +1,9 @@
+.DS_Store
+.DS
+.vscode
+*.pyc
+__pycache__
+venv
+.env
+plotly_key.txt
+to_do/
