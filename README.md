@@ -1,6 +1,7 @@
 # nba-projects
 
 where I keep my various NBA analyses in .ipynb format
+
 # Files in this repository
 
 __*2020_mvp.ipynb*__ - detailed analysis of the 2020 NBA MVP race between LeBron and Giannis (as of 5/30/20) [Here is my completed analysis.](https://tidbitstatistics.com/nba-mvp/)
