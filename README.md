@@ -10,4 +10,6 @@ __*bubble_playoff_h-a.ipynb*__ -  compared home/away records over the last 15 ye
 
 __*bubble_shooting.ipynb*__ - comparing shooting number before and during the 2019-20 NBA bubble. [Here is my completed analysis.](https://www.tidbitstatistics.com/are-nba-teams-shooting-better-in-the-bubble/)
 
-__*margin_of_victory.ipynb*__ - showed the '19 - '20 season was on pace to have the most 40-point blowouts of all time. (as of 12/26/19) [Here is my completed analysis.](https://www.tidbitstatistics.com/NBA-blowouts/)# nba-projects
+__*margin_of_victory.ipynb*__ - showed the '19 - '20 season was on pace to have the most 40-point blowouts of all time. (as of 12/26/19) [Here is my completed analysis.](https://www.tidbitstatistics.com/NBA-blowouts/)
+
+__*nba_score_variance.ipynb*__ - looking at if the rise of the 3 point shot is correlated with the final score. (as of 12/26/19) [Here is my completed analysis.](https://tidbitstatistics.com/3-pt-correlation/)
