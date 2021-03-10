@@ -9,6 +9,7 @@ from nba_api.stats.endpoints import leaguegamelog
 from to_sql import pg_connect
 
 
+
 def update_game_log(table, game_type, p_t='T'):
     logs = pd.DataFrame(columns=['table_updated', 'time_updated', 'rows_updated', 'start_date', 'end_date'])
     df = pg_connect().query(f'SELECT MAX(season_id) as season_id, MAX(game_date) as date FROM {table}')
