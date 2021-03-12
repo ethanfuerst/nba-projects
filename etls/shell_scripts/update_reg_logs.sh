@@ -9,9 +9,9 @@ echo_time() {
 
 source ${TOP_LEVEL}/env/bin/activate
 
-echo_time "TEST!"
-# python3 ${AUX_SCRIPTS}/reg_logs.py 
-echo_time "TEST"
+echo_time "starting script"
+python3 ${TOP_LEVEL}/etls/reg_logs.py 
+echo_time "done running script"
 
 deactivate
 echo_time "Finished"
