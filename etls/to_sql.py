@@ -1,6 +1,7 @@
 #%%
 # class for quick sql importing
 import pandas as pd
+import os
 import psycopg2
 from psycopg2 import extras
 
