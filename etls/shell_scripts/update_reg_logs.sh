@@ -9,8 +9,6 @@ echo_time() {
 
 source ${TOP_LEVEL}env/bin/activate
 
-activate_venv
-
 echo_time "TEST!"
 # python3 ${AUX_SCRIPTS}/reg_logs.py 
 echo_time "TEST"
