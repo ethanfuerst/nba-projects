@@ -7,7 +7,7 @@ echo_time() {
     date +"%d/%m/%Y %H:%M:%S%z $*"
 }
 
-source ${TOP_LEVEL}env/bin/activate
+source ${TOP_LEVEL}/env/bin/activate
 
 echo_time "TEST!"
 # python3 ${AUX_SCRIPTS}/reg_logs.py 
