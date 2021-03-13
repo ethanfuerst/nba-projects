@@ -10,7 +10,9 @@ from psycopg2 import extras
 class pg_connect:
     def __init__(self):
         self.conn = psycopg2.connect(
-            os.environ['CONN_STRING']
+            dbname='postgres',
+            user='ethanfuerst',
+            password=os.environ['POSTGRES_PASS']
         )
 
     def _create_df(self, data, cols):
@@ -49,3 +51,5 @@ class pg_connect:
             self.conn.close()
 
         return
+
+# %%
