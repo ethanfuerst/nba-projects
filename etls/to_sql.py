@@ -13,7 +13,8 @@ class pg_connect:
             dbname='postgres',
             user='ethanfuerst',
             password=os.environ['POSTGRES_PASS'],
-            port='5432'
+            port='5432', 
+            host=os.environ['host']
         )
 
     def _create_df(self, data, cols):
