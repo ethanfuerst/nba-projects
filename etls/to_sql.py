@@ -12,7 +12,8 @@ class pg_connect:
         self.conn = psycopg2.connect(
             dbname='postgres',
             user='ethanfuerst',
-            password=os.environ['POSTGRES_PASS']
+            password=os.environ['POSTGRES_PASS'],
+            port='5432'
         )
 
     def _create_df(self, data, cols):
